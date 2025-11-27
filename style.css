@@ -1,0 +1,84 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    background-color: hsl(0, 0%, 12%);
+    padding: 16px;
+    border-radius: 16px;
+    width: 320px;
+    height: 510px;
+}
+.card h2{
+    color: hsl(0, 0%, 100%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    margin:0;
+}
+.card h4{
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    font-family: "Outfit", sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+.card h3{
+    font-family: "Outfit", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+}
+.img-perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+.img-perfil h2,h4{
+    margin: 4px;
+}
+.img-perfil img{
+    width: 80px;
+    height: auto;
+    border-radius: 90%;
+}
+.img-perfil h2, img{
+    margin: 10px;
+}
+.card-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social-links ul{
+  display: flex;
+    flex-direction: column;
+    padding: 0;
+
+}
+.social-links a{
+    padding: 12px;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    display: block;
+    background: hsl(0, 0%, 20%);
+    margin-bottom: 12px;
+    width: 280px;
+    height: auto;
+    border-radius: 12px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+
+
+
