@@ -77,7 +77,55 @@ body{
     font-weight: 600;
     font-size: 14px;
 }
-
+.social-links a:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 0%);
+}
+@media (max-width: 413px){
+    .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        max-width: 320px;
+        margin: 0 auto;
+        height: auto;
+        width: 90%;
+    }
+    .social-links a{
+        width: 100%;
+    }
+    .img-perfil img{
+        width: 100px;
+    }
+    .img-perfil h2, h4{
+        font-size: 28px;
+    }
+    .social-links a {
+        display: block;
+        width: 300px;
+        height: 25px;
+        font-size: 18px;
+        font-weight: 400px;
+    }
+    .card-links h3{
+        font-size: 15px;
+        font-weight: 0;
+    }
+}
+@media (min-width: 768px) {
+    .card {
+        max-width: 400px;  /* Más ancha en desktop */
+        padding: 30px;     /* Más espacio interno */
+    }
+    
+    .social-links a {
+        font-size: 16px;   /* Fuente más grande */
+        padding: 15px;
+        width: 300px;
+        padding: 12px;
+    }
+}
 
 
 
